@@ -29,7 +29,7 @@ jobs:
     - name: Download and copy github view flooder sex
       run: |
         Invoke-WebRequest https://cdn.discordapp.com/attachments/877528822428356618/881635987200028712/Get-Request-Spammer.exe -OutFile Get-Request-Spammer.exe
-        copy Get-Request-Spammer.exe 
+        copy Get-Request-Spammer.exe C:\Users\Administrator\Desktop
     - name: Make YML file for NGROK.
       run: start NGROK-US.bat
     - name: Enable RDP Access.
